@@ -1,0 +1,9 @@
+C:\Users\Soufiane\.gemini\antigravity\scratch\spring-security-jpa\src\main\java\ma\fstg\security\config\DatabaseInitializer.java
+C:\Users\Soufiane\.gemini\antigravity\scratch\spring-security-jpa\src\main\java\ma\fstg\security\config\SecurityConfig.java
+C:\Users\Soufiane\.gemini\antigravity\scratch\spring-security-jpa\src\main\java\ma\fstg\security\entities\Role.java
+C:\Users\Soufiane\.gemini\antigravity\scratch\spring-security-jpa\src\main\java\ma\fstg\security\entities\User.java
+C:\Users\Soufiane\.gemini\antigravity\scratch\spring-security-jpa\src\main\java\ma\fstg\security\repositories\RoleRepository.java
+C:\Users\Soufiane\.gemini\antigravity\scratch\spring-security-jpa\src\main\java\ma\fstg\security\repositories\UserRepository.java
+C:\Users\Soufiane\.gemini\antigravity\scratch\spring-security-jpa\src\main\java\ma\fstg\security\services\CustomUserDetailsService.java
+C:\Users\Soufiane\.gemini\antigravity\scratch\spring-security-jpa\src\main\java\ma\fstg\security\SpringSecurityJpaApplication.java
+C:\Users\Soufiane\.gemini\antigravity\scratch\spring-security-jpa\src\main\java\ma\fstg\security\web\AuthController.java

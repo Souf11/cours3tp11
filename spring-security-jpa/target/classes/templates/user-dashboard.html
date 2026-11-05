@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Espace Utilisateur</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 50px auto; max-width: 600px; padding: 20px; }
+        .card { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-left: 5px solid #2b5797; }
+        .btn-logout { background: #d9534f; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+        .nav-link { display: inline-block; margin-bottom: 15px; color: #2b5797; text-decoration: none; }
+    </style>
+</head>
+<body>
+<div class="card">
+    <a th:href="@{/home}" class="nav-link">← Retour à l'accueil</a>
+    <h2>Espace Utilisateur</h2>
+    <p>Accessible aux rôles <strong>USER</strong> et <strong>ADMIN</strong>.</p>
+    <p>Bienvenue dans votre espace membre.</p>
+    <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+    <form th:action="@{/logout}" method="post">
+        <button type="submit" class="btn-logout">Déconnexion</button>
+    </form>
+</div>
+</body>
+</html>
